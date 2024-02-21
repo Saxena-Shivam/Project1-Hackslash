@@ -1,6 +1,8 @@
 body{
   background-color: #f0f8ff;
   margin: 0px;
+  transition: all .3s linear 0s
+  color: #212529;
 }
 div{
   margin-top: 0px;
@@ -39,7 +41,7 @@ h2{
 }
 h3{
   font-size: 16px;
-  padding-top: 35px;
+  padding: 25px 0px;
   font-weight: 500px;
   margin-right: 50px;
   padding-right: 30px;
@@ -58,15 +60,17 @@ p{
 }
 .right{
   width: 500px;
-  height: 400PX;
+  height: 320PX;
   display : inline-block;
   position: relative;
 }
 .image{
   width: 500px;
+  height: 320px;
   display : inline-block;
   position: absolute;
   margin: 0px;
+
 }
 #image1 {
   height: 320px;
@@ -84,6 +88,47 @@ p{
   height: 320px;
   width: 530px;
 }
+h4:hover{
+  color: gray;
+   margin-left:  50px;
+   transition-delay: .02s;
+   border-color: white;
+}
+h2:hover{
+box-shadow: 0 0.4px 0.1px rgba(0,0,0.2,.5);
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+}
+p:hover{
+  color: gray;
+}
+.image:hover{
+  transform: scaleX(-1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .flip-box {
   background-color: transparent;
   width: 300px;
