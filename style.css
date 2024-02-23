@@ -4,10 +4,12 @@ body{
   transition: all .3s linear 0s
   color: #212529;
   padding-bottom: 100px;
+  /* transition: all .3s linear 0s; */
 }
 div{
   margin-top: 0px;
   margin-bottom: 0px;
+  transition: all .5s linear .2s;
 }
 .one{
   margin: 0px 50px 0px 50px;
@@ -56,20 +58,20 @@ p{
   height: 40px;
   width: 300px;
   display : inline-block;
-  position: relative;
+  /* position: relative; */
   margin: 0px;
 }
 .right{
   width: 500px;
   height: 320PX;
   display : inline-block;
-  position: relative;
+  /* position: relative; */
 }
 .image{
   width: 530px;
   height: 320px;
   display : inline-block;
-  position: absolute;
+  /* position: absolute; */
   margin: 0px;
 
 }
@@ -91,14 +93,16 @@ p{
 }
 h4:hover{
   color: gray;
-   margin-left:  50px;
+   padding-left:   50px;
    transition-delay: .02s;
    border-color: white;
 }
 h2:hover{
 /* box-shadow: 0 0.4px 0.1px rgba(0,0,0.2,.5); */
--webkit-transform: scale(2.04);
+/* -webkit-transform: scale(2.04); */
 transform: scale(1.04);
+background-color:#f0f8ff ;
+box-shadow: .2px .2px .2px .2px gray;
 }
 p:hover{
   color: gray;
@@ -106,19 +110,14 @@ p:hover{
 .image:hover{
   transform: rotateY(180deg);
   transition: transform 1.5s ease;
-  transition-property: all;
+  /* transition-property: all; */
 }
 
-.s3 .s1 .s2 .s4{
-    margin: 0px;
-    -webkit-animation: slide-up 1.2s ease-in;
-    animation: slide-up 1.2s ease-in;
-}
 button {
 padding: 15px;
 font-size: 1.3rem;
 background-color: black;
-color: #fff;
+color:#f0f8ff ;
 border-color: #f0f8ff;
 text-align: center;
 }

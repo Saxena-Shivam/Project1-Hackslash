@@ -32,16 +32,17 @@ btn.addEventListener("click",()=>{
     if(mode==0){
         body.style.backgroundColor="#000";
         heading.forEach(h2=>{
-            h2.style.color="#fff";
+            h2.style.color="#f0f8ff";
+            h2.style.backgroundColor="#000";
         });
         heading1.forEach(h3=>{
-            h3.style.color="#fff";
+            h3.style.color="#f0f8ff";
         });
         heading2.forEach(h4=>{
-            h4.style.color="#fff";
+            h4.style.color="#f0f8ff";
         });
         para.forEach(p=>{
-            p.style.color="#fff";
+            p.style.color="#f0f8ff";
         })
         mode=1;
     }
@@ -49,9 +50,11 @@ btn.addEventListener("click",()=>{
         body.style.backgroundColor="#f0f8ff";
         heading.forEach(h2=>{
             h2.style.color="";
+            h2.style.backgroundColor="#f0f8ff";
         });
         heading1.forEach(h3=>{
             h3.style.color="";
+
         });
         heading2.forEach(h4=>{
             h4.style.color="";
