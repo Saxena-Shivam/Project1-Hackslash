@@ -30,10 +30,10 @@ let para=document.querySelectorAll("p");
 let mode=0;
 btn.addEventListener("click",()=>{
     if(mode==0){
-        body.style.backgroundColor="#000";
+        body.style.backgroundColor="#212529";
         heading.forEach(h2=>{
             h2.style.color="#f0f8ff";
-            h2.style.backgroundColor="#000";
+            h2.style.backgroundColor="#212529";
         });
         heading1.forEach(h3=>{
             h3.style.color="#f0f8ff";
